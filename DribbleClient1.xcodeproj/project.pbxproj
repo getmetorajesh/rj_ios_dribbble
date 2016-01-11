@@ -13,6 +13,16 @@
 		02A208991C1277DF00F6EA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A208981C1277DF00F6EA20 /* Assets.xcassets */; };
 		02A2089C1C1277DF00F6EA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A2089A1C1277DF00F6EA20 /* LaunchScreen.storyboard */; };
 		02A208A71C1277DF00F6EA20 /* DribbleClient1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A208A61C1277DF00F6EA20 /* DribbleClient1Tests.swift */; };
+		02A208B21C1277F500F6EA20 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 02A208B11C1277F500F6EA20 /* Podfile */; };
+		02CAE2391C3B06D80070D594 /* DribbbleBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAE2381C3B06D80070D594 /* DribbbleBase.swift */; };
+		02CAE2831C41D5060070D594 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAE2821C41D5060070D594 /* Color.swift */; };
+		02CAE2861C41D8030070D594 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAE2851C41D8030070D594 /* BaseVC.swift */; };
+		02CAE2881C41DFA30070D594 /* ShotCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAE2871C41DFA30070D594 /* ShotCollectionVC.swift */; };
+		02E397DE1C1C9BBD00B20FAB /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E397DD1C1C9BBD00B20FAB /* SecondVC.swift */; };
+		02E397E01C1C9BC900B20FAB /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E397DF1C1C9BC900B20FAB /* ThirdVC.swift */; };
+		02E397E41C1CA21600B20FAB /* Second.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E397E31C1CA21600B20FAB /* Second.xib */; };
+		02E397E61C1CA2BB00B20FAB /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E397E51C1CA2BB00B20FAB /* Two.swift */; };
+		AA3AD9459ACFF088B95CFCD6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6E04D03BD2EF0B040AD57 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,19 @@
 		02A208A21C1277DF00F6EA20 /* DribbleClient1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbleClient1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A208A61C1277DF00F6EA20 /* DribbleClient1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbleClient1Tests.swift; sourceTree = "<group>"; };
 		02A208A81C1277DF00F6EA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A208B11C1277F500F6EA20 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		02CAE2381C3B06D80070D594 /* DribbbleBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DribbbleBase.swift; sourceTree = "<group>"; };
+		02CAE2821C41D5060070D594 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		02CAE2841C41D66A0070D594 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		02CAE2851C41D8030070D594 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		02CAE2871C41DFA30070D594 /* ShotCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotCollectionVC.swift; sourceTree = "<group>"; };
+		02E397DD1C1C9BBD00B20FAB /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		02E397DF1C1C9BC900B20FAB /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		02E397E31C1CA21600B20FAB /* Second.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Second.xib; sourceTree = "<group>"; };
+		02E397E51C1CA2BB00B20FAB /* Two.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Two.swift; sourceTree = "<group>"; };
+		074DBD9274D42844131279B9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6BF6E04D03BD2EF0B040AD57 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2BCDD02BC30042DBD0CA4A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3AD9459ACFF088B95CFCD6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +83,12 @@
 		02A208851C1277DF00F6EA20 = {
 			isa = PBXGroup;
 			children = (
+				02A208B11C1277F500F6EA20 /* Podfile */,
 				02A208901C1277DF00F6EA20 /* DribbleClient1 */,
 				02A208A51C1277DF00F6EA20 /* DribbleClient1Tests */,
 				02A2088F1C1277DF00F6EA20 /* Products */,
+				629F4450C251CCB93C13739B /* Pods */,
+				376855B2A26E53AB9069EE80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +104,21 @@
 		02A208901C1277DF00F6EA20 /* DribbleClient1 */ = {
 			isa = PBXGroup;
 			children = (
+				02CAE2801C41D47F0070D594 /* Helpers */,
+				02CAE27F1C41D4720070D594 /* View */,
+				02CAE27E1C41D21A0070D594 /* Controller */,
+				02CAE2371C3B06A90070D594 /* DataModel */,
 				02A208911C1277DF00F6EA20 /* AppDelegate.swift */,
 				02A208931C1277DF00F6EA20 /* ViewController.swift */,
 				02A208951C1277DF00F6EA20 /* Main.storyboard */,
 				02A208981C1277DF00F6EA20 /* Assets.xcassets */,
 				02A2089A1C1277DF00F6EA20 /* LaunchScreen.storyboard */,
 				02A2089D1C1277DF00F6EA20 /* Info.plist */,
+				02E397DD1C1C9BBD00B20FAB /* SecondVC.swift */,
+				02E397DF1C1C9BC900B20FAB /* ThirdVC.swift */,
+				02E397E31C1CA21600B20FAB /* Second.xib */,
+				02E397E51C1CA2BB00B20FAB /* Two.swift */,
+				02CAE2841C41D66A0070D594 /* MyPlayground.playground */,
 			);
 			path = DribbleClient1;
 			sourceTree = "<group>";
@@ -96,6 +132,63 @@
 			path = DribbleClient1Tests;
 			sourceTree = "<group>";
 		};
+		02CAE2371C3B06A90070D594 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				02CAE2811C41D4FB0070D594 /* Config */,
+				02CAE2381C3B06D80070D594 /* DribbbleBase.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		02CAE27E1C41D21A0070D594 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02CAE2851C41D8030070D594 /* BaseVC.swift */,
+				02CAE2871C41DFA30070D594 /* ShotCollectionVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		02CAE27F1C41D4720070D594 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		02CAE2801C41D47F0070D594 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		02CAE2811C41D4FB0070D594 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				02CAE2821C41D5060070D594 /* Color.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		376855B2A26E53AB9069EE80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6E04D03BD2EF0B040AD57 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		629F4450C251CCB93C13739B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				074DBD9274D42844131279B9 /* Pods.debug.xcconfig */,
+				FD2BCDD02BC30042DBD0CA4A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02A208AB1C1277DF00F6EA20 /* Build configuration list for PBXNativeTarget "DribbleClient1" */;
 			buildPhases = (
+				0DFAA7D4614FB9F72E007601 /* Check Pods Manifest.lock */,
 				02A2088A1C1277DF00F6EA20 /* Sources */,
 				02A2088B1C1277DF00F6EA20 /* Frameworks */,
 				02A2088C1C1277DF00F6EA20 /* Resources */,
+				6F13667DD87D5C6CA44B64F6 /* Embed Pods Frameworks */,
+				8C10917D1CCFB300A22A3C29 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,6 +277,8 @@
 			files = (
 				02A2089C1C1277DF00F6EA20 /* LaunchScreen.storyboard in Resources */,
 				02A208991C1277DF00F6EA20 /* Assets.xcassets in Resources */,
+				02A208B21C1277F500F6EA20 /* Podfile in Resources */,
+				02E397E41C1CA21600B20FAB /* Second.xib in Resources */,
 				02A208971C1277DF00F6EA20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,12 +292,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DFAA7D4614FB9F72E007601 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F13667DD87D5C6CA44B64F6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C10917D1CCFB300A22A3C29 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02A2088A1C1277DF00F6EA20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CAE2881C41DFA30070D594 /* ShotCollectionVC.swift in Sources */,
+				02CAE2391C3B06D80070D594 /* DribbbleBase.swift in Sources */,
+				02E397E01C1C9BC900B20FAB /* ThirdVC.swift in Sources */,
+				02CAE2831C41D5060070D594 /* Color.swift in Sources */,
+				02CAE2861C41D8030070D594 /* BaseVC.swift in Sources */,
 				02A208941C1277DF00F6EA20 /* ViewController.swift in Sources */,
+				02E397E61C1CA2BB00B20FAB /* Two.swift in Sources */,
+				02E397DE1C1C9BBD00B20FAB /* SecondVC.swift in Sources */,
 				02A208921C1277DF00F6EA20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +480,7 @@
 		};
 		02A208AC1C1277DF00F6EA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074DBD9274D42844131279B9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DribbleClient1/Info.plist;
@@ -338,6 +492,7 @@
 		};
 		02A208AD1C1277DF00F6EA20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2BCDD02BC30042DBD0CA4A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DribbleClient1/Info.plist;
@@ -390,6 +545,7 @@
 				02A208AD1C1277DF00F6EA20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A208AE1C1277DF00F6EA20 /* Build configuration list for PBXNativeTarget "DribbleClient1Tests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +554,7 @@
 				02A208B01C1277DF00F6EA20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
