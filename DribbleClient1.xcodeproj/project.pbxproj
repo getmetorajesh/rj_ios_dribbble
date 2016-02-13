@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0227D47A1C43DF72004D1B69 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227D4791C43DF72004D1B69 /* Shot.swift */; };
+		0227D47C1C43E060004D1B69 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227D47B1C43E060004D1B69 /* Utils.swift */; };
+		0227D47E1C43E249004D1B69 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227D47D1C43E249004D1B69 /* Config.swift */; };
+		02472E7F1C6EF10900F30223 /* ShotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02472E7E1C6EF10900F30223 /* ShotCollectionViewCell.xib */; };
+		02472E811C6EF13F00F30223 /* ShotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02472E801C6EF13F00F30223 /* ShotCollectionViewCell.swift */; };
+		02472E831C6EF6D200F30223 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02472E821C6EF6D200F30223 /* HttpService.swift */; };
+		02472E851C6EF85300F30223 /* DribbbleObjectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02472E841C6EF85300F30223 /* DribbbleObjectHandler.swift */; };
+		02472E8B1C6F424300F30223 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02472E8A1C6F424300F30223 /* QuartzCore.framework */; };
+		02472E8D1C6F425B00F30223 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02472E8C1C6F425B00F30223 /* ImageIO.framework */; };
+		02472E8F1C6F426800F30223 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02472E8E1C6F426800F30223 /* MobileCoreServices.framework */; };
+		02472E911C6F427900F30223 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02472E901C6F427900F30223 /* CoreGraphics.framework */; };
+		02472E951C6F44BE00F30223 /* ImageModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02472E941C6F44BE00F30223 /* ImageModalVC.swift */; };
+		02472E971C6F5D9B00F30223 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02472E961C6F5D9B00F30223 /* Social.framework */; };
+		02472E991C6F5EDA00F30223 /* ImageModalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02472E981C6F5EDA00F30223 /* ImageModalVC.xib */; };
 		02A208921C1277DF00F6EA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A208911C1277DF00F6EA20 /* AppDelegate.swift */; };
 		02A208941C1277DF00F6EA20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A208931C1277DF00F6EA20 /* ViewController.swift */; };
 		02A208971C1277DF00F6EA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A208951C1277DF00F6EA20 /* Main.storyboard */; };
@@ -36,6 +50,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0227D4791C43DF72004D1B69 /* Shot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		0227D47B1C43E060004D1B69 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0227D47D1C43E249004D1B69 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		02472E781C6E803200F30223 /* trials.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = trials.playground; sourceTree = "<group>"; };
+		02472E7E1C6EF10900F30223 /* ShotCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotCollectionViewCell.xib; sourceTree = "<group>"; };
+		02472E801C6EF13F00F30223 /* ShotCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotCollectionViewCell.swift; sourceTree = "<group>"; };
+		02472E821C6EF6D200F30223 /* HttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		02472E841C6EF85300F30223 /* DribbbleObjectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DribbbleObjectHandler.swift; sourceTree = "<group>"; };
+		02472E861C6F27BD00F30223 /* DribbleClient1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DribbleClient1-Bridging-Header.h"; sourceTree = "<group>"; };
+		02472E8A1C6F424300F30223 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		02472E8C1C6F425B00F30223 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		02472E8E1C6F426800F30223 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		02472E901C6F427900F30223 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02472E941C6F44BE00F30223 /* ImageModalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModalVC.swift; sourceTree = "<group>"; };
+		02472E961C6F5D9B00F30223 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		02472E981C6F5EDA00F30223 /* ImageModalVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageModalVC.xib; sourceTree = "<group>"; };
 		02A2088E1C1277DF00F6EA20 /* DribbleClient1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbleClient1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A208911C1277DF00F6EA20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02A208931C1277DF00F6EA20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +96,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02472E971C6F5D9B00F30223 /* Social.framework in Frameworks */,
+				02472E911C6F427900F30223 /* CoreGraphics.framework in Frameworks */,
+				02472E8F1C6F426800F30223 /* MobileCoreServices.framework in Frameworks */,
+				02472E8D1C6F425B00F30223 /* ImageIO.framework in Frameworks */,
+				02472E8B1C6F424300F30223 /* QuartzCore.framework in Frameworks */,
 				AA3AD9459ACFF088B95CFCD6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +154,8 @@
 				02E397E31C1CA21600B20FAB /* Second.xib */,
 				02E397E51C1CA2BB00B20FAB /* Two.swift */,
 				02CAE2841C41D66A0070D594 /* MyPlayground.playground */,
+				02472E781C6E803200F30223 /* trials.playground */,
+				02472E861C6F27BD00F30223 /* DribbleClient1-Bridging-Header.h */,
 			);
 			path = DribbleClient1;
 			sourceTree = "<group>";
@@ -137,6 +174,9 @@
 			children = (
 				02CAE2811C41D4FB0070D594 /* Config */,
 				02CAE2381C3B06D80070D594 /* DribbbleBase.swift */,
+				0227D4791C43DF72004D1B69 /* Shot.swift */,
+				02472E821C6EF6D200F30223 /* HttpService.swift */,
+				02472E841C6EF85300F30223 /* DribbbleObjectHandler.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -146,6 +186,8 @@
 			children = (
 				02CAE2851C41D8030070D594 /* BaseVC.swift */,
 				02CAE2871C41DFA30070D594 /* ShotCollectionVC.swift */,
+				02472E941C6F44BE00F30223 /* ImageModalVC.swift */,
+				02472E981C6F5EDA00F30223 /* ImageModalVC.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -153,6 +195,8 @@
 		02CAE27F1C41D4720070D594 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				02472E801C6EF13F00F30223 /* ShotCollectionViewCell.swift */,
+				02472E7E1C6EF10900F30223 /* ShotCollectionViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -160,14 +204,16 @@
 		02CAE2801C41D47F0070D594 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0227D47B1C43E060004D1B69 /* Utils.swift */,
 			);
-			name = Helpers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		02CAE2811C41D4FB0070D594 /* Config */ = {
 			isa = PBXGroup;
 			children = (
 				02CAE2821C41D5060070D594 /* Color.swift */,
+				0227D47D1C43E249004D1B69 /* Config.swift */,
 			);
 			name = Config;
 			sourceTree = "<group>";
@@ -175,6 +221,11 @@
 		376855B2A26E53AB9069EE80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				02472E961C6F5D9B00F30223 /* Social.framework */,
+				02472E901C6F427900F30223 /* CoreGraphics.framework */,
+				02472E8E1C6F426800F30223 /* MobileCoreServices.framework */,
+				02472E8C1C6F425B00F30223 /* ImageIO.framework */,
+				02472E8A1C6F424300F30223 /* QuartzCore.framework */,
 				6BF6E04D03BD2EF0B040AD57 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -236,7 +287,7 @@
 		02A208861C1277DF00F6EA20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Techiepandas;
 				TargetAttributes = {
@@ -277,8 +328,10 @@
 			files = (
 				02A2089C1C1277DF00F6EA20 /* LaunchScreen.storyboard in Resources */,
 				02A208991C1277DF00F6EA20 /* Assets.xcassets in Resources */,
+				02472E7F1C6EF10900F30223 /* ShotCollectionViewCell.xib in Resources */,
 				02A208B21C1277F500F6EA20 /* Podfile in Resources */,
 				02E397E41C1CA21600B20FAB /* Second.xib in Resources */,
+				02472E991C6F5EDA00F30223 /* ImageModalVC.xib in Resources */,
 				02A208971C1277DF00F6EA20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,15 +398,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02472E811C6EF13F00F30223 /* ShotCollectionViewCell.swift in Sources */,
 				02CAE2881C41DFA30070D594 /* ShotCollectionVC.swift in Sources */,
 				02CAE2391C3B06D80070D594 /* DribbbleBase.swift in Sources */,
 				02E397E01C1C9BC900B20FAB /* ThirdVC.swift in Sources */,
+				0227D47A1C43DF72004D1B69 /* Shot.swift in Sources */,
 				02CAE2831C41D5060070D594 /* Color.swift in Sources */,
+				0227D47E1C43E249004D1B69 /* Config.swift in Sources */,
+				02472E851C6EF85300F30223 /* DribbbleObjectHandler.swift in Sources */,
 				02CAE2861C41D8030070D594 /* BaseVC.swift in Sources */,
 				02A208941C1277DF00F6EA20 /* ViewController.swift in Sources */,
+				02472E951C6F44BE00F30223 /* ImageModalVC.swift in Sources */,
+				0227D47C1C43E060004D1B69 /* Utils.swift in Sources */,
 				02E397E61C1CA2BB00B20FAB /* Two.swift in Sources */,
 				02E397DE1C1C9BBD00B20FAB /* SecondVC.swift in Sources */,
 				02A208921C1277DF00F6EA20 /* AppDelegate.swift in Sources */,
+				02472E831C6EF6D200F30223 /* HttpService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,10 +543,13 @@
 			baseConfigurationReference = 074DBD9274D42844131279B9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DribbleClient1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.techiepandas.DribbleClient1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DribbleClient1/DribbleClient1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -495,10 +558,12 @@
 			baseConfigurationReference = FD2BCDD02BC30042DBD0CA4A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DribbleClient1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.techiepandas.DribbleClient1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DribbleClient1/DribbleClient1-Bridging-Header.h";
 			};
 			name = Release;
 		};

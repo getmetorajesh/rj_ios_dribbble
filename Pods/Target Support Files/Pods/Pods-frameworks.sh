@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods/FLAnimatedImage.framework"
   install_framework "Pods/PageMenu.framework"
   install_framework "Pods/SDWebImage.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods/FLAnimatedImage.framework"
   install_framework "Pods/PageMenu.framework"
   install_framework "Pods/SDWebImage.framework"
 fi

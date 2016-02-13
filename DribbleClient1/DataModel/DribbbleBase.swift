@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class DribbbleBase {
+    var id: Int
+    
+    init(data: NSDictionary) {
+        self.id = data["id"] as! Int
+    }
+}
